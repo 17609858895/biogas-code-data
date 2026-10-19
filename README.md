@@ -130,3 +130,18 @@ Project-authored code and documentation use the MIT license (`LICENSE`). The
 cited upstream dataset is attributed to Daniel Mulat and listed as CC BY 4.0 by
 Mendeley Data; the local corrections and evidence boundary are disclosed
 in `DATA_PROVENANCE.md`. Third-party dependencies retain their own licenses.
+
+## Meter-reading rounding update
+
+At the author’s request, 159 fractional cumulative meter readings in column G
+of the four reactor sheets in `data/Farm-scale_Biodigester.xlsx` were rounded
+to the nearest integer (half-up). Counts by sheet are 27, 32, 68 and 32.
+Only those numeric cell values were changed; other workbook entries, formulas,
+and cached formula values were preserved. This is a numerical transformation,
+not verification against field records. The historical provenance statements
+remain applicable.
+
+Existing `results/`, reference results and execution evidence predate this
+rounding update. The modelling pipeline and dependent workbook formula caches
+have NOT been recalculated for the rounded input; existing numerical results
+must not be described as verified outputs of this updated workbook.
