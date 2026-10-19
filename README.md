@@ -3,7 +3,8 @@
 This reproduction package reproduces the fixed corrected-data analysis accompanying the
 second revision. The author confirmed on 19 October 2026 that the current workbook
 contains corrections to erroneous original entries and instructed the revision
-to use it as the sole numerical input. See `DATA_PROVENANCE.md`. Independent
+to use it as the sole meter-record input, alongside the supplied matched weather
+file. See `DATA_PROVENANCE.md`. Independent
 field correction logs were not supplied. Successful execution verifies the
 calculations conditional on the identified corrected inputs.
 
