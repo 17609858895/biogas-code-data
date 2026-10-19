@@ -1,0 +1,253 @@
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+OUTER_DONE 1 selected ExtraTrees elapsed_s 9.4
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+OUTER_DONE 2 selected RandomForest elapsed_s 17.7
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+OUTER_DONE 3 selected CatBoost elapsed_s 25.3
+{
+  "scope": "retrospective diagnostic on author-confirmed corrected processed records (confirmation 2026-10-19)",
+  "chosen_ALE_features": [
+    "biogas_roll7",
+    "daily_mean_air_temp_lag1",
+    "biogas_roll3",
+    "daily_vpd_lag1"
+  ],
+  "inner_choice_scores": [
+    {
+      "outer_fold": 1,
+      "selected": true,
+      "model": "ExtraTrees",
+      "RMSE_mL_d": 196.64396867562397,
+      "MAE_mL_d": 151.13299578828907,
+      "R2": 0.7257023708629395
+    },
+    {
+      "outer_fold": 2,
+      "selected": true,
+      "model": "RandomForest",
+      "RMSE_mL_d": 256.2140302238289,
+      "MAE_mL_d": 167.89436097813189,
+      "R2": 0.3863019960300639
+    },
+    {
+      "outer_fold": 3,
+      "selected": true,
+      "model": "CatBoost",
+      "RMSE_mL_d": 231.98913456030425,
+      "MAE_mL_d": 152.4050699429614,
+      "R2": 0.3705060760311525
+    }
+  ],
+  "outer_selected": [
+    {
+      "outer_fold": 1,
+      "model": "ExtraTrees",
+      "selected_by_inner": true,
+      "RMSE_mL_d": 274.83575098954896,
+      "MAE_mL_d": 179.23829474394162,
+      "R2": 0.267086713740169
+    },
+    {
+      "outer_fold": 2,
+      "model": "RandomForest",
+      "selected_by_inner": true,
+      "RMSE_mL_d": 197.3995193382978,
+      "MAE_mL_d": 131.24137006342542,
+      "R2": 0.46352903601177364
+    },
+    {
+      "outer_fold": 3,
+      "model": "CatBoost",
+      "selected_by_inner": true,
+      "RMSE_mL_d": 155.18305104219723,
+      "MAE_mL_d": 114.60906995101948,
+      "R2": 0.13663898179112455
+    }
+  ],
+  "nested_summary": [
+    {
+      "model": "CatBoost",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 204.0883772727643,
+      "MAE_mL_d": 133.79068382728823,
+      "R2": 0.4190904480201465,
+      "inner_selection_count": 1
+    },
+    {
+      "model": "ExtraTrees",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 241.9773599264281,
+      "MAE_mL_d": 161.64226564828556,
+      "R2": 0.1833773137240612,
+      "inner_selection_count": 1
+    },
+    {
+      "model": "KNN",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 210.2666244463887,
+      "MAE_mL_d": 139.89109015796606,
+      "R2": 0.383387026495964,
+      "inner_selection_count": 0
+    },
+    {
+      "model": "LightGBM",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 224.927197880529,
+      "MAE_mL_d": 147.18664004084755,
+      "R2": 0.2944043116156435,
+      "inner_selection_count": 0
+    },
+    {
+      "model": "MLP",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 221.29892643053176,
+      "MAE_mL_d": 147.92626232125687,
+      "R2": 0.3169844571364028,
+      "inner_selection_count": 0
+    },
+    {
+      "model": "RandomForest",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 205.7192806498967,
+      "MAE_mL_d": 133.09226781941558,
+      "R2": 0.4097690667061856,
+      "inner_selection_count": 1
+    },
+    {
+      "model": "Ridge",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 248.55965764118812,
+      "MAE_mL_d": 173.49086096857155,
+      "R2": 0.13834530910540543,
+      "inner_selection_count": 0
+    },
+    {
+      "model": "SVR",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 252.71127343036397,
+      "MAE_mL_d": 191.31902374244115,
+      "R2": 0.10932101621730028,
+      "inner_selection_count": 0
+    },
+    {
+      "model": "XGBoost",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 209.8571519726863,
+      "MAE_mL_d": 136.6977506886814,
+      "R2": 0.3857862678880377,
+      "inner_selection_count": 0
+    },
+    {
+      "model": "Nested selected procedure",
+      "n_outer_predictions": 333,
+      "RMSE_mL_d": 212.55995842495574,
+      "MAE_mL_d": 140.39332510630499,
+      "R2": 0.36986313861535214,
+      "inner_selection_count": 3
+    }
+  ],
+  "ALE_10bin_summary": [
+    {
+      "version": "validation_predefined",
+      "feature": "biogas_roll7",
+      "bins": 10,
+      "n": 416,
+      "amplitude_mL_d": 314.6373985380442,
+      "net_change_mL_d": 314.6373985380442,
+      "min_mL_d": -148.9894265876246,
+      "max_mL_d": 165.6479719504196
+    },
+    {
+      "version": "validation_predefined",
+      "feature": "daily_mean_air_temp_lag1",
+      "bins": 10,
+      "n": 420,
+      "amplitude_mL_d": 52.458972374327274,
+      "net_change_mL_d": 49.16837279812041,
+      "min_mL_d": -16.28439583437801,
+      "max_mL_d": 36.174576539949264
+    },
+    {
+      "version": "validation_predefined",
+      "feature": "biogas_roll3",
+      "bins": 10,
+      "n": 420,
+      "amplitude_mL_d": 70.51349116256392,
+      "net_change_mL_d": 70.51349116256392,
+      "min_mL_d": -37.49903273883862,
+      "max_mL_d": 33.0144584237253
+    },
+    {
+      "version": "validation_predefined",
+      "feature": "daily_vpd_lag1",
+      "bins": 10,
+      "n": 420,
+      "amplitude_mL_d": 23.246620455591327,
+      "net_change_mL_d": 1.228995201441327,
+      "min_mL_d": -7.9490928856668805,
+      "max_mL_d": 15.297527569924444
+    },
+    {
+      "version": "posthoc_evaluation_selected",
+      "feature": "biogas_roll7",
+      "bins": 10,
+      "n": 416,
+      "amplitude_mL_d": 314.6373985380442,
+      "net_change_mL_d": 314.6373985380442,
+      "min_mL_d": -148.9894265876246,
+      "max_mL_d": 165.6479719504196
+    },
+    {
+      "version": "posthoc_evaluation_selected",
+      "feature": "biogas_roll3",
+      "bins": 10,
+      "n": 420,
+      "amplitude_mL_d": 70.51349116256387,
+      "net_change_mL_d": 70.51349116256387,
+      "min_mL_d": -37.49903273883861,
+      "max_mL_d": 33.01445842372526
+    },
+    {
+      "version": "posthoc_evaluation_selected",
+      "feature": "daily_mean_air_temp_lag1",
+      "bins": 10,
+      "n": 420,
+      "amplitude_mL_d": 52.458972374327274,
+      "net_change_mL_d": 49.168372798120394,
+      "min_mL_d": -16.28439583437802,
+      "max_mL_d": 36.17457653994926
+    },
+    {
+      "version": "posthoc_evaluation_selected",
+      "feature": "biogas_lag2",
+      "bins": 10,
+      "n": 416,
+      "amplitude_mL_d": 41.81969035272845,
+      "net_change_mL_d": 21.98640430402812,
+      "min_mL_d": -20.529638300529328,
+      "max_mL_d": 21.290052052199123
+    }
+  ],
+  "elapsed_seconds": 160.93699999997625
+}

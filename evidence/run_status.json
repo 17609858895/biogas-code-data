@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-19T08:07:22.510599+00:00",
+  "command": [
+    "D:\\Anaconda\\envs\\DL\\python.exe",
+    "C:\\Users\\17609\\OneDrive\\\u684c\u9762\\\u79d1\u7814\u5199\u4f5c\\\u673a\u5668\u5b66\u4e60\\\u4ea7\u6cbc\u6c14\uff08\u5e9f\u5f03\u7269\u53d1\u9175\uff09\\Submit_\u6cbc\u6c14\\\u4e8c\u6b21\u8fd4\u4fee\\\u8fd4\u4fee\u5de5\u4f5c_20261019\\reproducibility\\biogas-code-data-revision2\\run.py"
+  ],
+  "interpretation": "Reproduction of author-confirmed corrected derivative; field correction logs independently unavailable.",
+  "exit_code": 0,
+  "finished_utc": "2026-10-19T08:13:05.091932+00:00",
+  "author_confirmed_corrected_data": true,
+  "post_run_metadata_alignment": true
+}

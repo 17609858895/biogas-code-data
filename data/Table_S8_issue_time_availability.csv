@@ -1,0 +1,21 @@
+﻿Predictor,Required information,Audit result
+biogas_lag1,Prior interval end and measurement release,Measurement release unavailable
+biogas_lag2,Prior interval end and measurement release,Measurement release unavailable
+biogas_roll3,Prior interval end and measurement release,Measurement release unavailable
+biogas_roll7,Prior interval end and measurement release,Measurement release unavailable
+biogas_delta1,Prior interval end and measurement release,Measurement release unavailable
+days_since_prev,Planned target endpoint and previous date,Endpoint schedule unverified
+manure_fed_kg,Timestamped plan released before issue,Plan/release log unavailable
+water_kg,Timestamped plan released before issue,Plan/release log unavailable
+air_temp_in_situ_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_mean_air_temp_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_max_air_temp_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_min_air_temp_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_solar_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_precip_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_atm_p_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_vpd_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_wind_lag1,Prior date and weather-observation release,Observation release unavailable
+daily_temp_range_lag1,Prior date and weather-observation release,Observation release unavailable
+reactor_id,Stable reactor descriptor,Definable before issue
+reactor_type,Stable reactor descriptor,Definable before issue

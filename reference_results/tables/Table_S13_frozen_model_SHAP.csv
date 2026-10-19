@@ -1,0 +1,41 @@
+﻿transformed_feature,mean_abs_SHAP_mL_d
+num__biogas_roll7,129.38876874068174
+num__biogas_roll3,37.61964049115908
+num__daily_mean_air_temp_lag1,30.998235884244476
+num__biogas_lag1,21.81466529457788
+num__biogas_lag2,17.136909962393148
+cat__reactor_type_FLEX,11.823455930583531
+cat__reactor_id_R4-FIXED DOME,11.340781137985038
+cat__reactor_type_FIXED DOME,11.058795144529784
+num__daily_vpd_lag1,8.190238491295839
+cat__reactor_id_R2-FLEX,6.62491606108249
+num__daily_max_air_temp_lag1,4.862953910929549
+num__daily_min_air_temp_lag1,3.745625694389202
+num__daily_temp_range_lag1,3.7305627268596475
+num__daily_solar_lag1,3.539310631949316
+num__daily_atm_p_lag1,3.166628187172551
+num__air_temp_in_situ_lag1,3.156089033546648
+num__daily_wind_lag1,3.104803536719866
+num__daily_precip_lag1,2.4864981523758316
+cat__reactor_id_RI-FLEX,2.1392631327242637
+num__biogas_delta1,1.7386037755656163
+num__days_since_prev,1.0069135587050873
+cat__reactor_id_R3-FIXED DOME,0.9895532634006632
+num__water_kg,0.17131183465871655
+num__missingindicator_daily_wind_lag1,0.0
+num__missingindicator_daily_vpd_lag1,0.0
+num__manure_fed_kg,0.0
+num__missingindicator_daily_temp_range_lag1,0.0
+num__missingindicator_daily_precip_lag1,0.0
+num__missingindicator_daily_atm_p_lag1,0.0
+num__missingindicator_days_since_prev,0.0
+num__missingindicator_daily_solar_lag1,0.0
+num__missingindicator_daily_min_air_temp_lag1,0.0
+num__missingindicator_daily_max_air_temp_lag1,0.0
+num__missingindicator_daily_mean_air_temp_lag1,0.0
+num__missingindicator_air_temp_in_situ_lag1,0.0
+num__missingindicator_biogas_delta1,0.0
+num__missingindicator_biogas_roll7,0.0
+num__missingindicator_biogas_lag2,0.0
+num__missingindicator_biogas_lag1,0.0
+num__missingindicator_biogas_roll3,0.0

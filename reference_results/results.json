@@ -1,0 +1,305 @@
+{
+  "reference_model": "RandomForest",
+  "validation_best": "RandomForest",
+  "summary": {
+    "R2": 0.6608918004148903,
+    "RMSE_mL": 182.2893915347834,
+    "MAE_mL": 133.86511471460037,
+    "MASE": 0.8470178193356521,
+    "q90_mL": 457.4522598566657,
+    "q95_mL": 695.4611747128836,
+    "calibration_n": 36,
+    "mase_scale_mL": 158.04285536707576
+  },
+  "validation": [
+    {
+      "model": "Ridge",
+      "R2": 0.02683888306395199,
+      "RMSE_mL": 162.26659725329745,
+      "MAE_mL": 126.04821089181904,
+      "MASE": 0.7588072442774685
+    },
+    {
+      "model": "KNN",
+      "R2": 0.26185754010410167,
+      "RMSE_mL": 141.32104783076048,
+      "MAE_mL": 103.52955347894599,
+      "MASE": 0.6232454599776834
+    },
+    {
+      "model": "SVR",
+      "R2": -0.0856637965197169,
+      "RMSE_mL": 171.38958722328712,
+      "MAE_mL": 140.8903383332831,
+      "MASE": 0.8481564999582034
+    },
+    {
+      "model": "RandomForest",
+      "R2": 0.3127263065054716,
+      "RMSE_mL": 136.36459137112305,
+      "MAE_mL": 103.44252444593802,
+      "MASE": 0.6227215472601473
+    },
+    {
+      "model": "ExtraTrees",
+      "R2": -0.4044500047634505,
+      "RMSE_mL": 194.93503344874918,
+      "MAE_mL": 145.95034387966186,
+      "MASE": 0.878617613507619
+    },
+    {
+      "model": "MLP",
+      "R2": 0.26580258842397386,
+      "RMSE_mL": 140.94289231685002,
+      "MAE_mL": 107.02156827718801,
+      "MASE": 0.644267306359179
+    },
+    {
+      "model": "XGBoost",
+      "R2": 0.283057469215647,
+      "RMSE_mL": 139.2768472381069,
+      "MAE_mL": 108.81353342945029,
+      "MASE": 0.6550548941353863
+    },
+    {
+      "model": "LightGBM",
+      "R2": 0.16653902500727058,
+      "RMSE_mL": 150.16868918114193,
+      "MAE_mL": 117.68230918767817,
+      "MASE": 0.7084447141542637
+    },
+    {
+      "model": "CatBoost",
+      "R2": 0.2087805363470996,
+      "RMSE_mL": 146.31378190286298,
+      "MAE_mL": 107.57291945071881,
+      "MASE": 0.6475864273657843
+    }
+  ],
+  "counts": {
+    "train": 329,
+    "validation": 95,
+    "calibration": 36,
+    "test": 86
+  },
+  "coverage": [
+    {
+      "group": "overall",
+      "n_records": 86,
+      "coverage90": 0.9767441860465116,
+      "coverage95": 1.0,
+      "width90_mL": 914.9045197133314,
+      "width95_mL": 1390.9223494257672
+    },
+    {
+      "group": "R2-FLEX",
+      "n_records": 21,
+      "coverage90": 0.9523809523809523,
+      "coverage95": 1.0,
+      "width90_mL": 914.9045197133314,
+      "width95_mL": 1390.9223494257672
+    },
+    {
+      "group": "R3-FIXED DOME",
+      "n_records": 22,
+      "coverage90": 1.0,
+      "coverage95": 1.0,
+      "width90_mL": 914.9045197133314,
+      "width95_mL": 1390.9223494257672
+    },
+    {
+      "group": "R4-FIXED DOME",
+      "n_records": 20,
+      "coverage90": 1.0,
+      "coverage95": 1.0,
+      "width90_mL": 914.9045197133314,
+      "width95_mL": 1390.9223494257672
+    },
+    {
+      "group": "RI-FLEX",
+      "n_records": 23,
+      "coverage90": 0.9565217391304348,
+      "coverage95": 1.0,
+      "width90_mL": 914.9045197133314,
+      "width95_mL": 1390.9223494257672
+    }
+  ],
+  "reactor": [
+    {
+      "reactor_id": "R2-FLEX",
+      "n_records": 21,
+      "n_dates": 21,
+      "R2": -0.1845648741609982,
+      "RMSE_mL": 204.23872978639955,
+      "MAE_mL": 138.81298481741047,
+      "MASE": 0.8783249612581262,
+      "coverage90": 0.9523809523809523,
+      "coverage95": 1.0,
+      "mean_interval_width90_mL": 914.9045197133314,
+      "mean_interval_width95_mL": 1390.9223494257672
+    },
+    {
+      "reactor_id": "R3-FIXED DOME",
+      "n_records": 22,
+      "n_dates": 22,
+      "R2": 0.08890373389838346,
+      "RMSE_mL": 71.51681878901874,
+      "MAE_mL": 64.69707748355087,
+      "MASE": 0.4093641394499183,
+      "coverage90": 1.0,
+      "coverage95": 1.0,
+      "mean_interval_width90_mL": 914.9045197133314,
+      "mean_interval_width95_mL": 1390.9223494257672
+    },
+    {
+      "reactor_id": "R4-FIXED DOME",
+      "n_records": 20,
+      "n_dates": 20,
+      "R2": -1.6782172891490257,
+      "RMSE_mL": 172.4411388580806,
+      "MAE_mL": 133.54221212268777,
+      "MASE": 0.8449746862173431,
+      "coverage90": 1.0,
+      "coverage95": 1.0,
+      "mean_interval_width90_mL": 914.9045197133314,
+      "mean_interval_width95_mL": 1390.9223494257672
+    },
+    {
+      "reactor_id": "RI-FLEX",
+      "n_records": 23,
+      "n_dates": 23,
+      "R2": 0.07542935230205516,
+      "RMSE_mL": 235.40033760268972,
+      "MAE_mL": 195.78901031296257,
+      "MASE": 1.2388349340956686,
+      "coverage90": 0.9565217391304348,
+      "coverage95": 1.0,
+      "mean_interval_width90_mL": 914.9045197133314,
+      "mean_interval_width95_mL": 1390.9223494257672
+    }
+  ],
+  "peak": [
+    {
+      "subset": "all test",
+      "n_records": 86,
+      "threshold_mL": 801.5479628897012,
+      "MAE_mL": 133.86511471460037,
+      "mean_bias_mL": -14.687676953692865
+    },
+    {
+      "subset": "test peaks",
+      "n_records": 25,
+      "threshold_mL": 801.5479628897012,
+      "MAE_mL": 161.29895357899832,
+      "mean_bias_mL": -159.47903337026807
+    }
+  ],
+  "gaps": [
+    {
+      "subset": "consecutive observations",
+      "n_records": 66,
+      "MAE_mL": 124.43983354416808,
+      "RMSE_mL": 171.07680883751718
+    },
+    {
+      "subset": "after gaps",
+      "n_records": 20,
+      "MAE_mL": 164.96854257702702,
+      "RMSE_mL": 215.18482711759432
+    }
+  ],
+  "baseline": [
+    {
+      "model": "Persistence",
+      "n_records": 86,
+      "R2": 0.3372599109922566,
+      "RMSE_mL": 254.83781376598355,
+      "MAE_mL": 169.18474309659788,
+      "MASE": 1.070499154825086,
+      "RMSE_skill_vs_persistence": NaN
+    },
+    {
+      "model": "Rolling-3",
+      "n_records": 86,
+      "R2": 0.5894210261686167,
+      "RMSE_mL": 200.5813741347902,
+      "MAE_mL": 138.9113381329017,
+      "MASE": 0.8789472818006323,
+      "RMSE_skill_vs_persistence": NaN
+    },
+    {
+      "model": "Rolling-7",
+      "n_records": 86,
+      "R2": 0.6247972689779675,
+      "RMSE_mL": 191.74552858268456,
+      "MAE_mL": 138.57034577321775,
+      "MASE": 0.8767896875272818,
+      "RMSE_skill_vs_persistence": NaN
+    },
+    {
+      "model": "Selected ML model",
+      "n_records": 86,
+      "R2": 0.6608918004148903,
+      "RMSE_mL": 182.2893915347834,
+      "MAE_mL": 133.86511471460037,
+      "MASE": 0.8470178193356521,
+      "RMSE_skill_vs_persistence": 0.2846846830110584
+    }
+  ],
+  "sensitivity": [
+    {
+      "scenario": "Primary",
+      "train_n": 424,
+      "test_n": 86,
+      "R2": 0.6608918004148903,
+      "RMSE_mL": 182.2893915347834,
+      "MAE_mL": 133.86511471460037,
+      "MASE": 0.8470178193356521
+    },
+    {
+      "scenario": "No weather",
+      "train_n": 424,
+      "test_n": 86,
+      "R2": 0.6025293210974859,
+      "RMSE_mL": 197.35348418584832,
+      "MAE_mL": 145.7674870003102,
+      "MASE": 0.9223288623946059
+    },
+    {
+      "scenario": "Parsimonious history + operation",
+      "train_n": 424,
+      "test_n": 86,
+      "R2": 0.566814298165967,
+      "RMSE_mL": 206.02945156554327,
+      "MAE_mL": 151.95772174605855,
+      "MASE": 0.9614969395048978
+    },
+    {
+      "scenario": "Consecutive only",
+      "train_n": 345,
+      "test_n": 66,
+      "R2": 0.6910058295763767,
+      "RMSE_mL": 170.85010643658504,
+      "MAE_mL": 119.48918566980961,
+      "MASE": 0.756055598921444
+    },
+    {
+      "scenario": "Exclude R4",
+      "train_n": 325,
+      "test_n": 66,
+      "R2": 0.4534775976505556,
+      "RMSE_mL": 184.68957186805966,
+      "MAE_mL": 135.8156940140097,
+      "MASE": 0.859359910313943
+    },
+    {
+      "scenario": "3xIQR sensitivity",
+      "train_n": 424,
+      "test_n": 86,
+      "R2": 0.6608918004148903,
+      "RMSE_mL": 182.2893915347834,
+      "MAE_mL": 133.86511471460037,
+      "MASE": 0.8470178193356521
+    }
+  ]
+}

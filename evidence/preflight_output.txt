@@ -1,0 +1,357 @@
+{
+  "time_utc": "2026-10-19T08:29:19.988525+00:00",
+  "python": "3.9.21 (main, Dec 11 2024, 16:35:24) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python_matches": true,
+  "requirements": [
+    {
+      "package": "catboost",
+      "required": "1.2.7",
+      "installed": "1.2.7",
+      "matches": true
+    },
+    {
+      "package": "cloudpickle",
+      "required": "3.1.1",
+      "installed": "3.1.1",
+      "matches": true
+    },
+    {
+      "package": "colorama",
+      "required": "0.4.6",
+      "installed": "0.4.6",
+      "matches": true
+    },
+    {
+      "package": "contourpy",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "matches": true
+    },
+    {
+      "package": "cycler",
+      "required": "0.12.1",
+      "installed": "0.12.1",
+      "matches": true
+    },
+    {
+      "package": "et_xmlfile",
+      "required": "2.0.0",
+      "installed": "2.0.0",
+      "matches": true
+    },
+    {
+      "package": "fonttools",
+      "required": "4.56.0",
+      "installed": "4.56.0",
+      "matches": true
+    },
+    {
+      "package": "graphviz",
+      "required": "0.20.3",
+      "installed": "0.20.3",
+      "matches": true
+    },
+    {
+      "package": "importlib_resources",
+      "required": "6.5.2",
+      "installed": "6.5.2",
+      "matches": true
+    },
+    {
+      "package": "joblib",
+      "required": "1.4.2",
+      "installed": "1.4.2",
+      "matches": true
+    },
+    {
+      "package": "kiwisolver",
+      "required": "1.4.7",
+      "installed": "1.4.7",
+      "matches": true
+    },
+    {
+      "package": "lightgbm",
+      "required": "4.6.0",
+      "installed": "4.6.0",
+      "matches": true
+    },
+    {
+      "package": "llvmlite",
+      "required": "0.43.0",
+      "installed": "0.43.0",
+      "matches": true
+    },
+    {
+      "package": "matplotlib",
+      "required": "3.9.2",
+      "installed": "3.9.2",
+      "matches": true
+    },
+    {
+      "package": "narwhals",
+      "required": "1.31.0",
+      "installed": "1.31.0",
+      "matches": true
+    },
+    {
+      "package": "numba",
+      "required": "0.60.0",
+      "installed": "0.60.0",
+      "matches": true
+    },
+    {
+      "package": "numpy",
+      "required": "1.26.4",
+      "installed": "1.26.4",
+      "matches": true
+    },
+    {
+      "package": "openpyxl",
+      "required": "3.1.5",
+      "installed": "3.1.5",
+      "matches": true
+    },
+    {
+      "package": "packaging",
+      "required": "24.2",
+      "installed": "24.2",
+      "matches": true
+    },
+    {
+      "package": "pandas",
+      "required": "2.2.3",
+      "installed": "2.2.3",
+      "matches": true
+    },
+    {
+      "package": "patsy",
+      "required": "1.0.1",
+      "installed": "1.0.1",
+      "matches": true
+    },
+    {
+      "package": "pillow",
+      "required": "11.1.0",
+      "installed": "11.1.0",
+      "matches": true
+    },
+    {
+      "package": "plotly",
+      "required": "6.0.1",
+      "installed": "6.0.1",
+      "matches": true
+    },
+    {
+      "package": "pyparsing",
+      "required": "3.2.1",
+      "installed": "3.2.1",
+      "matches": true
+    },
+    {
+      "package": "python-dateutil",
+      "required": "2.9.0.post0",
+      "installed": "2.9.0.post0",
+      "matches": true
+    },
+    {
+      "package": "pytz",
+      "required": "2024.1",
+      "installed": "2024.1",
+      "matches": true
+    },
+    {
+      "package": "scikit-learn",
+      "required": "1.6.1",
+      "installed": "1.6.1",
+      "matches": true
+    },
+    {
+      "package": "scipy",
+      "required": "1.11.4",
+      "installed": "1.11.4",
+      "matches": true
+    },
+    {
+      "package": "seaborn",
+      "required": "0.13.2",
+      "installed": "0.13.2",
+      "matches": true
+    },
+    {
+      "package": "shap",
+      "required": "0.47.0",
+      "installed": "0.47.0",
+      "matches": true
+    },
+    {
+      "package": "six",
+      "required": "1.16.0",
+      "installed": "1.16.0",
+      "matches": true
+    },
+    {
+      "package": "slicer",
+      "required": "0.0.8",
+      "installed": "0.0.8",
+      "matches": true
+    },
+    {
+      "package": "statsmodels",
+      "required": "0.14.4",
+      "installed": "0.14.4",
+      "matches": true
+    },
+    {
+      "package": "threadpoolctl",
+      "required": "3.5.0",
+      "installed": "3.5.0",
+      "matches": true
+    },
+    {
+      "package": "tqdm",
+      "required": "4.67.1",
+      "installed": "4.67.1",
+      "matches": true
+    },
+    {
+      "package": "typing_extensions",
+      "required": "4.12.2",
+      "installed": "4.12.2",
+      "matches": true
+    },
+    {
+      "package": "tzdata",
+      "required": "2023.3",
+      "installed": "2023.3",
+      "matches": true
+    },
+    {
+      "package": "xgboost",
+      "required": "2.1.4",
+      "installed": "2.1.4",
+      "matches": true
+    },
+    {
+      "package": "zipp",
+      "required": "3.21.0",
+      "installed": "3.21.0",
+      "matches": true
+    }
+  ],
+  "input_code_hashes": [
+    {
+      "path": "code/ale_analysis.py",
+      "matches": true,
+      "expected_sha256": "5f4be1cc0294b657f38ede803565c4f69806be1c47db2a5de655daaae78d33dd",
+      "actual_sha256": "5f4be1cc0294b657f38ede803565c4f69806be1c47db2a5de655daaae78d33dd"
+    },
+    {
+      "path": "code/analysis_functions.py",
+      "matches": true,
+      "expected_sha256": "8df5666744bf96b1af08cb539a3be2792c3c578a0a6ed25bb8fccb6a6e3ea9af",
+      "actual_sha256": "8df5666744bf96b1af08cb539a3be2792c3c578a0a6ed25bb8fccb6a6e3ea9af"
+    },
+    {
+      "path": "code/data_all_models.py",
+      "matches": true,
+      "expected_sha256": "08fdbd3c5d603143250d4f2c29887272e79a103af4f33c539454196db979474c",
+      "actual_sha256": "08fdbd3c5d603143250d4f2c29887272e79a103af4f33c539454196db979474c"
+    },
+    {
+      "path": "code/export_revision2_tables.py",
+      "matches": true,
+      "expected_sha256": "84f1f5464a6348201d472c420421b291f5aa90d952b309b1a09cd1b454e986f0",
+      "actual_sha256": "84f1f5464a6348201d472c420421b291f5aa90d952b309b1a09cd1b454e986f0"
+    },
+    {
+      "path": "code/export_tables.py",
+      "matches": true,
+      "expected_sha256": "1ba7bc7185d12d515a6cd25edb3396e72fae05f06b06435cfb7b4a15f1f0b269",
+      "actual_sha256": "1ba7bc7185d12d515a6cd25edb3396e72fae05f06b06435cfb7b4a15f1f0b269"
+    },
+    {
+      "path": "code/ml_publication_style.py",
+      "matches": true,
+      "expected_sha256": "9d628067fa14f4b8be46c1f8954e3be52667569b18e1ca6ee76267fc9ddeff37",
+      "actual_sha256": "9d628067fa14f4b8be46c1f8954e3be52667569b18e1ca6ee76267fc9ddeff37"
+    },
+    {
+      "path": "code/reconstruction_functions.py",
+      "matches": true,
+      "expected_sha256": "1b2ee16882f278cdac03223250a811ba6091f1a8d38563aa01948587015208bc",
+      "actual_sha256": "1b2ee16882f278cdac03223250a811ba6091f1a8d38563aa01948587015208bc"
+    },
+    {
+      "path": "code/refine_figures.py",
+      "matches": true,
+      "expected_sha256": "5a72ae4545aa0c4912e824a7159c41b563ee861d9284607d223a92829e9ff9d0",
+      "actual_sha256": "5a72ae4545aa0c4912e824a7159c41b563ee861d9284607d223a92829e9ff9d0"
+    },
+    {
+      "path": "code/render_revision2_ale.py",
+      "matches": true,
+      "expected_sha256": "cf3e1ba77552a0649edaea48e4377d6dd1940f6bb012404c5d41e097b7c71399",
+      "actual_sha256": "cf3e1ba77552a0649edaea48e4377d6dd1940f6bb012404c5d41e097b7c71399"
+    },
+    {
+      "path": "code/revision2_selection.py",
+      "matches": true,
+      "expected_sha256": "e571a88ed3c585ed51ce922d379cfffa7a943573d9596e330ee71c603ef67399",
+      "actual_sha256": "e571a88ed3c585ed51ce922d379cfffa7a943573d9596e330ee71c603ef67399"
+    },
+    {
+      "path": "code/run_reanalysis.py",
+      "matches": true,
+      "expected_sha256": "b14357ac4da236271880b51cb06b2020ff22daab95beaebca36a193c9bd58671",
+      "actual_sha256": "b14357ac4da236271880b51cb06b2020ff22daab95beaebca36a193c9bd58671"
+    },
+    {
+      "path": "code/scientific_palettes.py",
+      "matches": true,
+      "expected_sha256": "f06d6689070268c581ffc08fd46e51d5fae44e12a2c2fd96704020c0e04d4ee9",
+      "actual_sha256": "f06d6689070268c581ffc08fd46e51d5fae44e12a2c2fd96704020c0e04d4ee9"
+    },
+    {
+      "path": "code/uncertainty_analysis.py",
+      "matches": true,
+      "expected_sha256": "00c7cba1ae27897233e9a1ff5301b1ff70cf1d02dcb635db40e10d043804fcac",
+      "actual_sha256": "00c7cba1ae27897233e9a1ff5301b1ff70cf1d02dcb635db40e10d043804fcac"
+    },
+    {
+      "path": "code/verify_revision2.py",
+      "matches": true,
+      "expected_sha256": "b58fc7cbd3be136d7465a16b96151f7f1fbebd787c1c4e3445b838d15dcdc157",
+      "actual_sha256": "b58fc7cbd3be136d7465a16b96151f7f1fbebd787c1c4e3445b838d15dcdc157"
+    },
+    {
+      "path": "data/Farm-scale_Biodigester.xlsx",
+      "matches": true,
+      "expected_sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd",
+      "actual_sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd"
+    },
+    {
+      "path": "data/Table_2_literature_comparison.csv",
+      "matches": true,
+      "expected_sha256": "c84903c3ab7a6befc46a2e8796da294bdad1138f61f838ae1102c26cb93c8fa4",
+      "actual_sha256": "c84903c3ab7a6befc46a2e8796da294bdad1138f61f838ae1102c26cb93c8fa4"
+    },
+    {
+      "path": "data/Table_S8_issue_time_availability.csv",
+      "matches": true,
+      "expected_sha256": "c6ec8ab7362ece27c3384cc87c8ada0afabe8be7601800010d931190a2e0ea3c",
+      "actual_sha256": "c6ec8ab7362ece27c3384cc87c8ada0afabe8be7601800010d931190a2e0ea3c"
+    },
+    {
+      "path": "data/weather_daily.csv",
+      "matches": true,
+      "expected_sha256": "5cb53ca9a9872169138aa4486c4fb260b828a94acb1506e9726e46e379263c76",
+      "actual_sha256": "5cb53ca9a9872169138aa4486c4fb260b828a94acb1506e9726e46e379263c76"
+    }
+  ],
+  "current_workbook_sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd",
+  "provenance_status": "author-confirmed corrected derivative, 2026-10-19",
+  "correction_rationale": "Author confirms original records contained errors and directs analysis of the corrected workbook.",
+  "independent_field_correction_logs_available": false,
+  "technical_preflight_pass": true
+}

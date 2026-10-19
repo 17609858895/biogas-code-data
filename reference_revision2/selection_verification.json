@@ -1,0 +1,38 @@
+{
+  "author": "CHONG LIU",
+  "all_outer_model_cells_recalculated": 27,
+  "selected_outer": [
+    {
+      "outer_fold": 1,
+      "model": "ExtraTrees",
+      "n": 103,
+      "RMSE_mL_d": 274.83575098954896,
+      "MAE_mL_d": 179.23829474394165,
+      "R2": 0.267086713740169
+    },
+    {
+      "outer_fold": 2,
+      "model": "RandomForest",
+      "n": 116,
+      "RMSE_mL_d": 197.3995193382978,
+      "MAE_mL_d": 131.24137006342542,
+      "R2": 0.46352903601177364
+    },
+    {
+      "outer_fold": 3,
+      "model": "CatBoost",
+      "n": 114,
+      "RMSE_mL_d": 155.18305104219723,
+      "MAE_mL_d": 114.60906995101948,
+      "R2": 0.13663898179112455
+    }
+  ],
+  "selected_pooled": {
+    "n": 333,
+    "RMSE_mL_d": 212.55995842495574,
+    "MAE_mL_d": 140.39332510630499,
+    "R2": 0.36986313861535214,
+    "weighted_fold_RMSE": 212.5599584249557
+  },
+  "clarification": "Inner-choice RMSE is the pooled inner-validation score used to choose an algorithm. Outer-selected RMSE is held-out error after refit and is the only fold quantity pooled for nested performance."
+}

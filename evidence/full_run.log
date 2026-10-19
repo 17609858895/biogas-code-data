@@ -1,0 +1,208 @@
+Running run_reanalysis.py
+COUNTS {'train': 329, 'validation': 95, 'calibration': 36, 'test': 86}
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+CV_DONE
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+MAIN {'R2': 0.6608918004148903, 'RMSE_mL': 182.2893915347834, 'MAE_mL': 133.86511471460037, 'MASE': 0.8470178193356521, 'q90_mL': 457.4522598566657, 'q95_mL': 695.4611747128836, 'calibration_n': 36, 'mase_scale_mL': 158.04285536707576} VALIDATION_BEST RandomForest
+ANALYSIS_COMPLETE
+Running data_all_models.py
+Ridge {'R2': 0.6329675252540343, 'RMSE_mL': 189.64635315355937, 'MAE_mL': 142.3902231949595, 'MASE': 0.9009595711507432, 'MAPE_percent': 83.26644150411744}
+KNN {'R2': 0.49941063388546236, 'RMSE_mL': 221.47925788755146, 'MAE_mL': 186.11715325005392, 'MASE': 1.177637247933618, 'MAPE_percent': 115.52463260567518}
+SVR {'R2': 0.3617974861954464, 'RMSE_mL': 250.0757068384125, 'MAE_mL': 218.5971913762255, 'MASE': 1.3831513665613302, 'MAPE_percent': 113.93969943277338}
+RandomForest {'R2': 0.6608918004148903, 'RMSE_mL': 182.28939153478336, 'MAE_mL': 133.86511471460037, 'MASE': 0.8470178193356521, 'MAPE_percent': 74.65226978374334}
+ExtraTrees {'R2': 0.6359589842525234, 'RMSE_mL': 188.87192577649284, 'MAE_mL': 139.67794654206892, 'MASE': 0.8837979180877752, 'MAPE_percent': 63.64011247309879}
+MLP {'R2': 0.4702044492493106, 'RMSE_mL': 227.84862030584944, 'MAE_mL': 177.14976976832088, 'MASE': 1.1208970462908099, 'MAPE_percent': 119.90543158850755}
+XGBoost {'R2': 0.6764495843023683, 'RMSE_mL': 178.05871334531207, 'MAE_mL': 123.42061702390966, 'MASE': 0.780931328640252, 'MAPE_percent': 80.72602719492171}
+D:\Anaconda\envs\DL\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+LightGBM {'R2': 0.690417466605471, 'RMSE_mL': 174.17285658246996, 'MAE_mL': 121.61229061407711, 'MASE': 0.7694893282686917, 'MAPE_percent': 76.4755961756211}
+CatBoost {'R2': 0.5909895897055789, 'RMSE_mL': 200.19785997463683, 'MAE_mL': 156.43514265294573, 'MASE': 0.989827362265786, 'MAPE_percent': 99.78244562239819}
+ rank     type        model  n_records       R2    RMSE_mL     MAE_mL     MASE  MAPE_percent  Skill_P  Skill_R7   TOPSIS
+    1       ML     LightGBM         86 0.690417 174.172857 121.612291 0.769489     76.475596 0.532875  0.174893 0.858108
+    2       ML      XGBoost         86 0.676450 178.058713 123.420617 0.780931     80.726027 0.511799  0.137665 0.810735
+    3       ML RandomForest         86 0.660892 182.289392 133.865115 0.847018     74.652270 0.488324  0.096200 0.847162
+    4       ML   ExtraTrees         86 0.635959 188.871926 139.677947 0.883798     63.640112 0.450703  0.029748 0.870654
+    5       ML        Ridge         86 0.632968 189.646353 142.390223 0.900960     83.266442 0.446189  0.021776 0.730004
+    6 Baseline    Rolling-7         86 0.624797 191.745529 138.570346 0.876790           NaN 0.433861  0.000000      NaN
+    7       ML     CatBoost         86 0.590990 200.197860 156.435143 0.989827     99.782446 0.382849 -0.090105 0.528945
+    8 Baseline    Rolling-3         86 0.589421 200.581374 138.911338 0.878947           NaN 0.380483 -0.094286      NaN
+    9       ML          KNN         86 0.499411 221.479258 186.117153 1.177637    115.524633 0.244667 -0.334184 0.270342
+   10       ML          MLP         86 0.470204 227.848620 177.149770 1.120897    119.905432 0.200598 -0.412025 0.264915
+   11       ML          SVR         86 0.361797 250.075707 218.597191 1.383151    113.939699 0.037024 -0.700954 0.068077
+   12 Baseline  Persistence         86 0.337260 254.837814 169.184743 1.070499           NaN 0.000000 -0.766352      NaN
+Running uncertainty_analysis.py
+Primary matches existing results
+No weather matches existing results
+Parsimonious history + operation matches existing results
+Consecutive only matches existing results
+Exclude R4 matches existing results
+3xIQR sensitivity matches existing results
+ domain         group     metric   estimate   ci95_low  ci95_high  valid_replicates  n_records  n_dates
+reactor       Overall         R2   0.660892   0.534622   0.766185              1000         86       23
+reactor       Overall       RMSE 182.289392 144.976832 216.265206              1000         86       23
+reactor       Overall        MAE 133.865115 108.081212 163.289524              1000         86       23
+reactor       Overall       MASE   0.847018   0.683873   1.033198              1000         86       23
+reactor       Overall Coverage90   0.976744   0.939759   1.000000              1000         86       23
+reactor       Overall Coverage95   1.000000   1.000000   1.000000              1000         86       23
+reactor       R2-FLEX         R2  -0.184565  -0.606720   0.183858              1000         21       21
+reactor       R2-FLEX       RMSE 204.238730 105.919542 284.301597              1000         21       21
+reactor       R2-FLEX        MAE 138.812985  80.375834 210.855554              1000         21       21
+reactor       R2-FLEX       MASE   0.878325   0.508570   1.334167              1000         21       21
+reactor       R2-FLEX Coverage90   0.952381   0.850000   1.000000              1000         21       21
+reactor       R2-FLEX Coverage95   1.000000   1.000000   1.000000              1000         21       21
+reactor R3-FIXED DOME         R2   0.088904  -0.781100   0.445633              1000         22       22
+reactor R3-FIXED DOME       RMSE  71.516819  59.431582  82.770795              1000         22       22
+reactor R3-FIXED DOME        MAE  64.697077  51.919441  77.757381              1000         22       22
+reactor R3-FIXED DOME       MASE   0.409364   0.328515   0.492002              1000         22       22
+reactor R3-FIXED DOME Coverage90   1.000000   1.000000   1.000000              1000         22       22
+reactor R3-FIXED DOME Coverage95   1.000000   1.000000   1.000000              1000         22       22
+reactor R4-FIXED DOME         R2  -1.678217  -6.791592  -0.538566              1000         20       20
+reactor R4-FIXED DOME       RMSE 172.441139 118.964878 221.136814              1000         20       20
+reactor R4-FIXED DOME        MAE 133.542212  88.884294 180.756218              1000         20       20
+reactor R4-FIXED DOME       MASE   0.844975   0.562406   1.143716              1000         20       20
+reactor R4-FIXED DOME Coverage90   1.000000   1.000000   1.000000              1000         20       20
+reactor R4-FIXED DOME Coverage95   1.000000   1.000000   1.000000              1000         20       20
+reactor       RI-FLEX         R2   0.075429  -0.514383   0.204168              1000         23       23
+reactor       RI-FLEX       RMSE 235.400338 177.707423 291.963248              1000         23       23
+reactor       RI-FLEX        MAE 195.789010 147.662255 252.908877              1000         23       23
+reactor       RI-FLEX       MASE   1.238835   0.934318   1.600255              1000         23       23
+reactor       RI-FLEX Coverage90   0.956522   0.869565   1.000000              1000         23       23
+reactor       RI-FLEX Coverage95   1.000000   1.000000   1.000000              1000         23       23
+Running export_tables.py
+Final Table 1 and Tables S1-S7: C:\Users\17609\OneDrive\桌面\科研写作\机器学习\产沼气（废弃物发酵）\Submit_沼气\二次返修\返修工作_20261019\reproducibility\biogas-code-data-revision2\results\publication_tables
+Running refine_figures.py
+Fig01_locked_split
+Fig02_association_analysis
+Fig03_validation_selection
+Fig04_test_prediction
+Fig06_calibration_coverage
+Fig05_residual_reliability
+Fig08_sensitivity
+Fig07_frozen_model_importance
+Running ale_analysis.py
+{
+  "model_sha256": "f1c82e3acbf9e64c2bca32a31a2ad1c2df8e2b94afd7fbba8a6aec6ec85fe0d9",
+  "workbook_sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd",
+  "fit_or_data_changed": false,
+  "reference": "424 development records; missing plotted features excluded separately",
+  "features_selected": "four highest-ranked continuous features in RF evaluation permutation output; post-hoc evaluation-informed analysis",
+  "centering": "mean interpolated ALE over nonmissing development values equals zero",
+  "validation": "known additive predictor slope and centering; exhaustive disjoint bins",
+  "curves": [
+    {
+      "feature": "biogas_roll7",
+      "n": 416,
+      "range_x": [
+        0.0,
+        1025.1367060731309
+      ],
+      "ale_range_10": [
+        -148.9894265876246,
+        165.6479719504196
+      ],
+      "bins": {
+        "8": {
+          "net_change": 310.9245621341543,
+          "range": 310.9245621341543
+        },
+        "10": {
+          "net_change": 314.6373985380442,
+          "range": 314.6373985380442
+        },
+        "15": {
+          "net_change": 302.6326691294136,
+          "range": 302.6326691294136
+        }
+      }
+    },
+    {
+      "feature": "biogas_roll3",
+      "n": 420,
+      "range_x": [
+        0.0,
+        1088.411803063979
+      ],
+      "ale_range_10": [
+        -37.49903273883858,
+        33.01445842372527
+      ],
+      "bins": {
+        "8": {
+          "net_change": 69.2132019508142,
+          "range": 69.2132019508142
+        },
+        "10": {
+          "net_change": 70.51349116256385,
+          "range": 70.51349116256385
+        },
+        "15": {
+          "net_change": 67.22900261513668,
+          "range": 67.22900261513668
+        }
+      }
+    },
+    {
+      "feature": "daily_mean_air_temp_lag1",
+      "n": 420,
+      "range_x": [
+        14.51388888888889,
+        19.53993055555556
+      ],
+      "ale_range_10": [
+        -16.284395834378024,
+        36.17457653994925
+      ],
+      "bins": {
+        "8": {
+          "net_change": 48.84580999624025,
+          "range": 51.42993840360097
+        },
+        "10": {
+          "net_change": 49.168372798120394,
+          "range": 52.458972374327274
+        },
+        "15": {
+          "net_change": 52.31935345242188,
+          "range": 55.74291660792966
+        }
+      }
+    },
+    {
+      "feature": "biogas_lag2",
+      "n": 416,
+      "range_x": [
+        0.0,
+        1634.510595358224
+      ],
+      "ale_range_10": [
+        -20.52963830052932,
+        21.290052052199123
+      ],
+      "bins": {
+        "8": {
+          "net_change": 19.954619657907806,
+          "range": 40.691787099070794
+        },
+        "10": {
+          "net_change": 21.98640430402806,
+          "range": 41.81969035272844
+        },
+        "15": {
+          "net_change": 20.96095621769864,
+          "range": 47.057979310305114
+        }
+      }
+    }
+  ]
+}
+Completed. Outputs: C:\Users\17609\OneDrive\桌面\科研写作\机器学习\产沼气（废弃物发酵）\Submit_沼气\二次返修\返修工作_20261019\reproducibility\biogas-code-data-revision2\results

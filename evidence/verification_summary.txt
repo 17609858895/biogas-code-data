@@ -1,0 +1,36 @@
+{
+  "csv_files": 50,
+  "csv_pass": 50,
+  "figures": 11,
+  "figure_pairs_pass": 11,
+  "pixel_identical": 11,
+  "publication_tables": 13,
+  "publication_tables_pass": 13,
+  "submitted_metric_checks": [
+    {
+      "metric": "R2",
+      "submitted_full_precision": 0.6608918004148903,
+      "regenerated": 0.6608918004148903,
+      "pass": true
+    },
+    {
+      "metric": "RMSE_mL",
+      "submitted_full_precision": 182.28939153478336,
+      "regenerated": 182.2893915347834,
+      "pass": true
+    },
+    {
+      "metric": "MAE_mL",
+      "submitted_full_precision": 133.86511471460037,
+      "regenerated": 133.86511471460037,
+      "pass": true
+    },
+    {
+      "metric": "MASE",
+      "submitted_full_precision": 0.8470178193356521,
+      "regenerated": 0.8470178193356521,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

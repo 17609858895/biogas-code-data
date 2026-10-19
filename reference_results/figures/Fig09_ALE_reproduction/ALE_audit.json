@@ -1,0 +1,115 @@
+{
+  "model_sha256": "f1c82e3acbf9e64c2bca32a31a2ad1c2df8e2b94afd7fbba8a6aec6ec85fe0d9",
+  "workbook_sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd",
+  "fit_or_data_changed": false,
+  "reference": "424 development records; missing plotted features excluded separately",
+  "features_selected": "four highest-ranked continuous features in RF evaluation permutation output; post-hoc evaluation-informed analysis",
+  "centering": "mean interpolated ALE over nonmissing development values equals zero",
+  "validation": "known additive predictor slope and centering; exhaustive disjoint bins",
+  "curves": [
+    {
+      "feature": "biogas_roll7",
+      "n": 416,
+      "range_x": [
+        0.0,
+        1025.1367060731309
+      ],
+      "ale_range_10": [
+        -148.9894265876246,
+        165.64797195041953
+      ],
+      "bins": {
+        "8": {
+          "net_change": 310.92456213415437,
+          "range": 310.92456213415437
+        },
+        "10": {
+          "net_change": 314.6373985380441,
+          "range": 314.6373985380441
+        },
+        "15": {
+          "net_change": 302.6326691294136,
+          "range": 302.6326691294136
+        }
+      }
+    },
+    {
+      "feature": "biogas_roll3",
+      "n": 420,
+      "range_x": [
+        0.0,
+        1088.411803063979
+      ],
+      "ale_range_10": [
+        -37.49903273883858,
+        33.01445842372526
+      ],
+      "bins": {
+        "8": {
+          "net_change": 69.2132019508142,
+          "range": 69.2132019508142
+        },
+        "10": {
+          "net_change": 70.51349116256384,
+          "range": 70.51349116256384
+        },
+        "15": {
+          "net_change": 67.22900261513661,
+          "range": 67.22900261513661
+        }
+      }
+    },
+    {
+      "feature": "daily_mean_air_temp_lag1",
+      "n": 420,
+      "range_x": [
+        14.51388888888889,
+        19.53993055555556
+      ],
+      "ale_range_10": [
+        -16.284395834378017,
+        36.17457653994926
+      ],
+      "bins": {
+        "8": {
+          "net_change": 48.845809996240185,
+          "range": 51.429938403600964
+        },
+        "10": {
+          "net_change": 49.1683727981204,
+          "range": 52.458972374327274
+        },
+        "15": {
+          "net_change": 52.31935345242191,
+          "range": 55.74291660792966
+        }
+      }
+    },
+    {
+      "feature": "biogas_lag2",
+      "n": 416,
+      "range_x": [
+        0.0,
+        1634.510595358224
+      ],
+      "ale_range_10": [
+        -20.52963830052932,
+        21.2900520521991
+      ],
+      "bins": {
+        "8": {
+          "net_change": 19.954619657907813,
+          "range": 40.691787099070766
+        },
+        "10": {
+          "net_change": 21.986404304028117,
+          "range": 41.81969035272842
+        },
+        "15": {
+          "net_change": 20.9609562176987,
+          "range": 47.05797931030517
+        }
+      }
+    }
+  ]
+}

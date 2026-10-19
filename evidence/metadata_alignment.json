@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-19T08:13:34.733532+00:00",
+  "author_correction_confirmation": "2026-10-19",
+  "workbook_sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd",
+  "actual_workbook_core_properties": {
+    "source_metadata_title": "",
+    "source_metadata_description": ""
+  },
+  "source_code_change": "Read current core title/description instead of inherited hard-coded metadata; record author-confirmed corrected-derivative status.",
+  "numerical_ast_equivalent_to_executed_analysis": true,
+  "no_input_or_numerical_output_changes": true,
+  "log_note": "full_run.log contains unchanged pipeline-stage stdout/stderr beginning at Running run_reanalysis.py.",
+  "field_correction_logs_independently_available": false
+}

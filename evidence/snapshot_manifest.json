@@ -1,0 +1,95 @@
+{
+  "scope": "final corrected inputs and analysis code",
+  "files": [
+    {
+      "path": "code/ale_analysis.py",
+      "size": 4936,
+      "sha256": "5f4be1cc0294b657f38ede803565c4f69806be1c47db2a5de655daaae78d33dd"
+    },
+    {
+      "path": "code/analysis_functions.py",
+      "size": 62529,
+      "sha256": "8df5666744bf96b1af08cb539a3be2792c3c578a0a6ed25bb8fccb6a6e3ea9af"
+    },
+    {
+      "path": "code/data_all_models.py",
+      "size": 4486,
+      "sha256": "08fdbd3c5d603143250d4f2c29887272e79a103af4f33c539454196db979474c"
+    },
+    {
+      "path": "code/export_revision2_tables.py",
+      "size": 1706,
+      "sha256": "84f1f5464a6348201d472c420421b291f5aa90d952b309b1a09cd1b454e986f0"
+    },
+    {
+      "path": "code/export_tables.py",
+      "size": 2143,
+      "sha256": "1ba7bc7185d12d515a6cd25edb3396e72fae05f06b06435cfb7b4a15f1f0b269"
+    },
+    {
+      "path": "code/ml_publication_style.py",
+      "size": 5984,
+      "sha256": "9d628067fa14f4b8be46c1f8954e3be52667569b18e1ca6ee76267fc9ddeff37"
+    },
+    {
+      "path": "code/reconstruction_functions.py",
+      "size": 12412,
+      "sha256": "1b2ee16882f278cdac03223250a811ba6091f1a8d38563aa01948587015208bc"
+    },
+    {
+      "path": "code/refine_figures.py",
+      "size": 12215,
+      "sha256": "5a72ae4545aa0c4912e824a7159c41b563ee861d9284607d223a92829e9ff9d0"
+    },
+    {
+      "path": "code/render_revision2_ale.py",
+      "size": 3362,
+      "sha256": "cf3e1ba77552a0649edaea48e4377d6dd1940f6bb012404c5d41e097b7c71399"
+    },
+    {
+      "path": "code/revision2_selection.py",
+      "size": 14601,
+      "sha256": "e571a88ed3c585ed51ce922d379cfffa7a943573d9596e330ee71c603ef67399"
+    },
+    {
+      "path": "code/run_reanalysis.py",
+      "size": 8254,
+      "sha256": "b14357ac4da236271880b51cb06b2020ff22daab95beaebca36a193c9bd58671"
+    },
+    {
+      "path": "code/scientific_palettes.py",
+      "size": 5576,
+      "sha256": "f06d6689070268c581ffc08fd46e51d5fae44e12a2c2fd96704020c0e04d4ee9"
+    },
+    {
+      "path": "code/uncertainty_analysis.py",
+      "size": 10060,
+      "sha256": "00c7cba1ae27897233e9a1ff5301b1ff70cf1d02dcb635db40e10d043804fcac"
+    },
+    {
+      "path": "code/verify_revision2.py",
+      "size": 2612,
+      "sha256": "b58fc7cbd3be136d7465a16b96151f7f1fbebd787c1c4e3445b838d15dcdc157"
+    },
+    {
+      "path": "data/Farm-scale_Biodigester.xlsx",
+      "size": 267321,
+      "sha256": "1b061d2b93ebdb4f1f7cc3c1f7934bb4fbe7bb32149b2f8ecaf18ad80c3554cd"
+    },
+    {
+      "path": "data/Table_2_literature_comparison.csv",
+      "size": 2004,
+      "sha256": "c84903c3ab7a6befc46a2e8796da294bdad1138f61f838ae1102c26cb93c8fa4"
+    },
+    {
+      "path": "data/Table_S8_issue_time_availability.csv",
+      "size": 1825,
+      "sha256": "c6ec8ab7362ece27c3384cc87c8ada0afabe8be7601800010d931190a2e0ea3c"
+    },
+    {
+      "path": "data/weather_daily.csv",
+      "size": 19824,
+      "sha256": "5cb53ca9a9872169138aa4486c4fb260b828a94acb1506e9726e46e379263c76"
+    }
+  ]
+}

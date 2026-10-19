@@ -1,0 +1,21 @@
+{
+  "development_records": 424,
+  "calibration_records_excluded_from_fitting": 36,
+  "common_evaluation_records": 86,
+  "ranking": "descriptive ascending evaluation RMSE, not used to select or tune a model",
+  "skill_definition": "1 - model MSE / baseline MSE",
+  "topsis": {
+    "criteria": [
+      "R2",
+      "RMSE_mL",
+      "MAE_mL",
+      "MAPE_percent"
+    ],
+    "NSE_excluded": true,
+    "normalization": "column Euclidean norm",
+    "weighting": "Shannon entropy across the nine ML models",
+    "direction": "maximize R2, minimize RMSE MAE MAPE",
+    "model_selection_use": false
+  },
+  "validation_results_kept_separate": true
+}

@@ -1,0 +1,65 @@
+{
+  "seed": 42,
+  "replicates": 1000,
+  "evaluation_dates": [
+    "2024-09-21",
+    "2024-09-23",
+    "2024-09-24",
+    "2024-09-25",
+    "2024-09-26",
+    "2024-09-27",
+    "2024-09-28",
+    "2024-09-30",
+    "2024-10-01",
+    "2024-10-02",
+    "2024-10-03",
+    "2024-10-04",
+    "2024-10-05",
+    "2024-10-07",
+    "2024-10-09",
+    "2024-10-10",
+    "2024-10-11",
+    "2024-10-12",
+    "2024-10-14",
+    "2024-10-15",
+    "2024-10-16",
+    "2024-10-17",
+    "2024-10-18"
+  ],
+  "resampling": "23 dates with replacement; shared date multiplicities across all models, reactors and scenarios; retain all records in each selected date and subset",
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "MASE_scale_mL_d": 158.04285536707576,
+  "peak_threshold_mL_d": 801.5479628897012,
+  "fixed": [
+    "fitted models",
+    "data preparation",
+    "development MASE scale",
+    "calibration band widths",
+    "TOPSIS entropy weights",
+    "subset definitions"
+  ],
+  "TOPSIS": "Recompute column norms and ideal/nadir for each replicate; keep published entropy weights fixed.",
+  "boundary_coverage": "A group with no observed misses has a degenerate [1,1] nonparametric bootstrap interval; this is not a coverage guarantee.",
+  "widths": "914.904519713331 and 1390.9223494257671 mL/day are fixed calibrated band widths, not independently sampled performance metrics.",
+  "excluded_uncertainty": [
+    "consecutive-day dependence",
+    "data preparation",
+    "parameter estimation and model selection",
+    "calibration-quantile estimation"
+  ],
+  "checks": {
+    "all_existing_point_estimates_match": true,
+    "original_pooled_intervals_match": true,
+    "minimum_valid_replicates": 1000
+  },
+  "input_sha256": {
+    "results\\audit\\test_predictions.csv": "74ce64379e7af311983406f63ddca65c2586d705599afc3f2dd4e7641bbf29f6",
+    "results\\audit\\all_model_evaluation_predictions.csv": "bc4f80d2186bea0d0f9d63c2feecb87c3faffde62fe8675b4f66bac878a83f33",
+    "results\\data\\analysis_records.csv": "1c4eba3eae9cb3b4b2fdf63d84a570c17efcbef35515d7d0f667ecda317f8a92",
+    "results\\audit\\protocol.json": "ed6ce02cda4ac9ef352bc32d8c8193fadedcfaca2aa2262da92cfacea38a66a2",
+    "results\\tables\\TOPSIS_weights.csv": "420763dda8f0dafb033680689c0a0ee2880af89249122204b8f4380fbf009c72"
+  }
+}
