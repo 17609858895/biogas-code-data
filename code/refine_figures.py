@@ -124,6 +124,9 @@ def save_figure_with_subfigures(fig,stem,axes):
     with warnings.catch_warnings():
         warnings.simplefilter('ignore');fig.tight_layout(pad=1.5,w_pad=2.4,h_pad=2.4,rect=(0,0,1,.97) if fig.legends else None)
     footprints=align_outer_footprints(fig,axes)
+    if stem=='Fig05_residual_reliability':
+        for label in arr[3].texts:
+            if label.get_text()=='(d)':label.set_position((-.20,1.05))
     export_file(fig,FIG/stem,dpi=150 if '--draft' in sys.argv else 600)
     if '--draft' not in sys.argv:export_subfigures(fig,axes,stem)
     records.append({'figure':stem,'horizontal_x_ticks':all(t.get_rotation()==0 for ax in arr for t in ax.get_xticklabels()),'outer_footprints':footprints,'panels':len(arr)})

@@ -19,7 +19,7 @@ def main():
         generated = []
         snapshot = []
         for f in sorted(ROOT.rglob('*')):
-            if not f.is_file() or '__pycache__' in f.parts:
+            if not f.is_file() or '__pycache__' in f.parts or '.git' in f.parts:
                 continue
             rel = f.relative_to(ROOT)
             if rel.parts[0] in ['code','data']:

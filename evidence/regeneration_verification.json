@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-19T08:21:39.372423+00:00",
+  "checked_utc": "2026-10-19T08:39:05.687279+00:00",
   "scope": "technical reproduction of fixed author-confirmed corrected inputs",
   "corrections_author_confirmed": "2026-10-19",
   "independent_field_correction_logs_available": false,
@@ -886,7 +886,7 @@
         8044,
         5701
       ],
-      "regenerated_png_sha256": "cc3931f9c4e3438dd9e651972afac90b87405b5242926b93d2cf90b630cce641",
+      "regenerated_png_sha256": "2144db5db41d971ea9a890576e697e48410752b06c0e170e901e3dfc4b95ed3e",
       "same_pixel_dimensions_as_archive": true,
       "pixels_identical_to_archive": true,
       "pass": true,

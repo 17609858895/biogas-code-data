@@ -38,8 +38,8 @@
     },
     {
       "path": "code/refine_figures.py",
-      "size": 12215,
-      "sha256": "5a72ae4545aa0c4912e824a7159c41b563ee861d9284607d223a92829e9ff9d0"
+      "size": 12367,
+      "sha256": "2f8981d3e8aaf57bc8bd754b63a640e986c6414d3930dbc7ca3d952056263d2e"
     },
     {
       "path": "code/render_revision2_ale.py",

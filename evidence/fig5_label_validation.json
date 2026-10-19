@@ -1,0 +1,20 @@
+{
+  "figure": "Fig05_residual_reliability",
+  "image_dimensions": [
+    8044,
+    5701
+  ],
+  "only_changed_pixel_region_bbox": [
+    3952,
+    3306,
+    4374,
+    3464
+  ],
+  "panel_d_label_axes_position": [
+    -0.2,
+    1.05
+  ],
+  "axis_limits_data_and_fits_changed": false,
+  "visual_check": "Combined figure and standalone d panel inspected; (d) separated from tick 220.",
+  "render_command": "python code/refine_figures.py --only Fig05"
+}

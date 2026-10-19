@@ -1,5 +1,5 @@
 {
-  "time_utc": "2026-10-19T08:29:19.988525+00:00",
+  "time_utc": "2026-10-19T08:38:27.476275+00:00",
   "python": "3.9.21 (main, Dec 11 2024, 16:35:24) [MSC v.1929 64 bit (AMD64)]",
   "platform": "Windows-10-10.0.26300-SP0",
   "python_matches": true,
@@ -285,8 +285,8 @@
     {
       "path": "code/refine_figures.py",
       "matches": true,
-      "expected_sha256": "5a72ae4545aa0c4912e824a7159c41b563ee861d9284607d223a92829e9ff9d0",
-      "actual_sha256": "5a72ae4545aa0c4912e824a7159c41b563ee861d9284607d223a92829e9ff9d0"
+      "expected_sha256": "2f8981d3e8aaf57bc8bd754b63a640e986c6414d3930dbc7ca3d952056263d2e",
+      "actual_sha256": "2f8981d3e8aaf57bc8bd754b63a640e986c6414d3930dbc7ca3d952056263d2e"
     },
     {
       "path": "code/render_revision2_ale.py",
